@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 from frappe import _
 
 app_name = "erpnext"
-app_title = "ERPNext"
+app_title = "Hisab Kitab"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
@@ -10,7 +10,7 @@ app_color = "#e74c3c"
 app_email = "info@erpnext.com"
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/frappe/erpnext"
-app_logo_url = 'https://raw.githubusercontent.com/marjenitish/hisabkitab/master/erp-icon.svg'
+app_logo_url = '/assets/erpnext/images/erp-icon.svg'
 
 
 develop_version = '12.x.x-develop'
@@ -78,7 +78,7 @@ website_generators = ["Item Group", "Item", "BOM", "Sales Partner",
 
 website_context = {
 	"favicon": 	"/assets/erpnext/images/favicon.png",
-	"splash_image": "https://raw.githubusercontent.com/marjenitish/hisabkitab/master/erp-icon.svg"
+	"splash_image": "/assets/erpnext/images/erp-icon.svg"
 }
 
 website_route_rules = [
